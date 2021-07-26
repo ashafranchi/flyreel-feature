@@ -12,10 +12,11 @@ const breakpoints = createBreakpoints({
 })
 
 const CardContainer = ({ data }) => {
+
   return (
     <Grid templateColumns={{base: "repeat(2, 1fr)", md: "repeat(3, 1fr)", lg: "repeat(4, 1fr)"}} gap={6}>
-      {data.map((e) => (
-        <Box maxW="md" borderWidth="2px" borderRadius="lg" overflow="hidden">
+      {data && data.map((e) => (
+        <Box key={e.properties.ids} maxW="md" borderWidth="2px" borderRadius="lg" overflow="hidden">
           <Box p="6">
             <Box d="flex" alignItems="baseline">
               <Badge borderRadius="full" px="2" colorScheme="blue">

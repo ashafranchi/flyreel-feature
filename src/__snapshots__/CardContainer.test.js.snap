@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardContainer CardContainer should render CardContainer 1`] = `
+Array [
+  <Grid
+    gap={6}
+    templateColumns={
+      Object {
+        "base": "repeat(2, 1fr)",
+        "lg": "repeat(4, 1fr)",
+        "md": "repeat(3, 1fr)",
+      }
+    }
+  />,
+]
+`;

@@ -1,10 +1,12 @@
-import React from 'react';
-import { shallow } from 'enzyme';
-import "../setupTests"
+import "./setupTests"
+import App from './App';
 import CardContainer from './CardContainer';
 
+import { shallow, mount, render } from 'enzyme';
+
 describe("CardContainer", () => {
-  it("should render the card container", () => {
+  it("CardContainer should render CardContainer", () => {
     const wrapper = shallow(<CardContainer />);
+    expect(wrapper.getElements()).toMatchSnapshot();
   });
 });

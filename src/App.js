@@ -10,7 +10,6 @@ import CardContainer from './CardContainer';
 function App() {
   let url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson"
   const [data, setData] = useState([])
-
   async function fetchEarthquakes() {
     const response = await axios.get(url);
     setData(response.data.features)
