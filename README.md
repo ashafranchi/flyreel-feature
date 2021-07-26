@@ -1,6 +1,6 @@
 # Flyreel Feature
 
-For ACME Corp, I've developed an earthquake tracker that displays information about recent earthquakes and plots them on a map. All data is populated in real-time from the USGS API. Here is a link to the docs: https://earthquake.usgs.gov/fdsnws/event/1/. As for unit testing, I've tested the card component using snapshot testing with Jest and Enzyme. The site is responsively designed.
+For ACME Corp, I've developed an earthquake tracker that displays information about recent earthquakes. All data is populated in real-time from the USGS API. Here is a link to the docs: https://earthquake.usgs.gov/fdsnws/event/1/. As for unit testing, I've tested the card component using snapshot testing with Jest and Enzyme. The site is responsively designed.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
