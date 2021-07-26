@@ -26,10 +26,10 @@ const CardContainer = ({ data }) => {
           <Box mt="1" paddingTop="0.5em" fontSize="xl" fontWeight="semibold" as="h4" lineHeight="tight">
             {e.properties.title}
           </Box>
-          <Box d="flex" justifyContent="center" alignItems="flex-end">
+          <Box paddingTop="0.5em" fontSize="lg" d="flex" justifyContent="center" alignItems="flex-end">
             {e.properties.felt}
-            <Box className="Felt" as="span" fontSize="md">
-              people felt
+            <Box marginBottom="3px" marginLeft={{base: "3px", sm: "6px"}} as="span" fontSize={{base: "12px", sm: "md"}}>
+              affected
             </Box>
           </Box>
         </Box>
